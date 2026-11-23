@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #17100a;
+  height: 100%;
+  overflow: hidden;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 6px;
+}
+
+#table {
+  width: min(1280px, 100vw);
+  height: auto;
+  max-height: calc(100vh - 34px);
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #4a2c14, 0 18px 60px rgba(0, 0, 0, 0.65);
+  cursor: pointer;
+  background: #241609;
+}
+
+#hint {
+  color: #c9a06a;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  user-select: none;
+}
